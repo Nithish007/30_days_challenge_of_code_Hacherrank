@@ -5,9 +5,10 @@ public class Solution {
         Scanner in = new Scanner(System.in);
         int N = in.nextInt();
         in.close();
-
-        for (int i = 1; i < 11; i++) {
+        if(n>=2 && n<=20){
+         for (int i = 1; i < 11; i++) {
             System.out.println(N + " x " + i + " = " + N * i);
         }
     }
+}
 }
